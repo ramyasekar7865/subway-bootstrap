@@ -1,0 +1,101 @@
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap:40px; */
+    padding: 10px;
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+.navbar-nav .nav-link.active {
+    text-decoration: underline;
+    text-decoration-color: #ffc107;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+}
+.line{
+    color:white;
+    height:65px;
+    /* width:80%; */
+    border: none;  
+}
+.foot2{
+    text-align: center;
+}
+/* menu */
+.menu{
+    background-image: url('https://img.magnific.com/premium-photo/soil-texture-dark-gardening-background_1039297-4889.jpg?semt=ais_hybrid&w=740&q=80');
+    padding: 10px;
+
+} 
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.head{
+    border-radius: 5%;
+}
+/* about */
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.aboutcontent{
+    background-color: whitesmoke;
+}
+/* store locator */
+.store{
+    padding:10px 16px;
+     border-radius: 4px;
+    min-width: 230px;
+}
+.store::after {
+    margin-left: 12px;
+     float: right;
+    margin-top: 8px;
+}
+.green{
+    background-color: green;
+     padding: 20px  30px !important; 
+}
+.forum .btn-warning,
+.forum .btn-light{
+    padding: 10px 24px;
+    border-radius: 4px;
+}
+.forum{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+      padding: 0px 20px !important;  
+    gap:80px;
+}
+.forum::placeholder{
+         text-align: center;
+}
+.dropdown2{
+    margin-right: 30px;
+}
+.bun{
+    text-align: center;
+}
+/* Talk to us */
+
+.talktous{
+    display: flex;
+    justify-content: center;
+}
+
+.final{
+    border-radius: 20px;
+    padding: 5px 50px;
+}
